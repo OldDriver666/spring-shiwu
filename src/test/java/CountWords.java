@@ -20,10 +20,17 @@ public class CountWords {
 				"boot","调优","多线程","activemq","uml"};
 		
 		Map<String,Integer> map = new TreeMap<String,Integer>();
-		System.out.println("样本:"+str.split("5.").length);
+		String[] detials = str.split("gggg");
+		System.out.println("样本:"+ detials.length);
 		for (String word : array) {
-			map.put( word, str.split(word).length);
-			System.out.println(word + ":" + str.split(word).length);
+			int count = 0;
+			for (String detial : detials) {
+				if (detial.split(word).length > 1) {
+					count++;
+				}
+			}
+			map.put( word, count);
+			System.out.println(word + ":" + count);
 		}
 		System.out.println("----------------------*------------------------------");
 		for (Entry<String,Integer> es : map.entrySet()) {
