@@ -11,9 +11,9 @@ import java.util.TreeMap;
 
 public class CountWords {
 	public static void main(String[] args) throws Exception {
-		File file = new File("C:\\Users\\tany\\Desktop\\ggg.txt");
+		File file = new File("F:\\oxygen\\shiwu\\高级工程师要求");
 		String str = read(file).toLowerCase();
-		String[] array = new String[]{"数据库设计","设计模式","系统设计","架构设计","hibernate","nosql","springmvc","html","css"
+		String[] array = new String[]{"kafka","电商","spark","支付","数据库设计","设计模式","系统设计","架构设计","hibernate","nosql","springmvc","html","css"
 				,"spring","mysql","oracle","redis","mongo","hbase","nginx","jquery","dubbo","cloud",
 				"mybatis","netty","hadoop","jvm","mycat","zookeeper","linux","python","docker","git","svn","maven","gradle",
 				"rabbitmq","p2p","团队","分布式","高并发","金融", "互联网","经验者优先","需求","沟通","设计","缓存","队列","消息","jsp","大数据",
@@ -33,6 +33,7 @@ public class CountWords {
 			System.out.println(word + ":" + count);
 		}
 		System.out.println("----------------------*------------------------------");
+		System.out.println("样本:"+ detials.length);
 		for (Entry<String,Integer> es : map.entrySet()) {
 			System.out.println(es.getKey() + ":" + es.getValue());
 		}
@@ -45,6 +46,7 @@ public class CountWords {
             }  
         });  
         System.out.println("----------------------*------------------------------");
+        System.out.println("样本:"+ detials.length);
         for (Map.Entry<String, Integer> entry : entryArrayList) {
             System.out.println(entry.getKey() + " - " + entry.getValue());
         }
