@@ -34,8 +34,8 @@ public class URLTest2 {
 				String url = m.group();
 				if (url.split("jobs.zhaopin.com").length >1 ) {
 					String link = m.group().replaceAll("<a href=\"", "").replaceAll("\"", "");
-					System.out.println(link);
-//					WebPageSource.getJob(link);
+//					System.out.println(link);
+					WebPageSource.getJob(link);
 				}
 				
 			}

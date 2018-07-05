@@ -47,7 +47,7 @@ public class WebPageSource {
 
                 }
 //                System.out.println(sb.toString());
-                System.out.println(sb.toString().split("职位描述")[1].split("工作地址")[0].replaceAll("[<][.*]{0,100}[>]", ""));
+                System.out.println(sb.toString().split("职位描述")[1].split("工作地址")[0]);
                 System.out.println("gggg");
 
             }
