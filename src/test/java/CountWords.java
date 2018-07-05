@@ -11,7 +11,7 @@ import java.util.TreeMap;
 
 public class CountWords {
 	public static void main(String[] args) throws Exception {
-		File file = new File("F:\\oxygen\\shiwu\\高级工程师要求");
+		File file = new File("F:\\oxygen\\shiwu\\高级工程师要求2");
 		String str = read(file).toLowerCase();
 		String[] array = new String[]{"kafka","电商","spark","支付","数据库设计","设计模式","系统设计","架构设计","hibernate","nosql","springmvc","html","css"
 				,"spring","mysql","oracle","redis","mongo","hbase","nginx","jquery","dubbo","cloud",

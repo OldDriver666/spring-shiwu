@@ -45,7 +45,7 @@ public class WebPageSource {
                 	sb.append(line);
 
                 }
-                System.out.println(sb.toString().split("职位信息")[1].split("联系方式")[0].replaceAll("[^((\\u4e00-\\u9fa5)(\\d))]", ""));
+                System.out.println(sb.toString().split("职位信息")[1].split("联系方式")[0]);
                 System.out.println("gggg");
 
             }
