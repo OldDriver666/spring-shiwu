@@ -98,6 +98,6 @@ public class MyCrawler {
     //main 方法入口
     public static void main(String[] args) {
         MyCrawler crawler = new MyCrawler();
-        crawler.crawling(new String[]{"https://www.lagou.com/jobs/list_%E9%AB%98%E7%BA%A7java%E5%B7%A5%E7%A8%8B%E5%B8%88?px=default&yx=15k-25k&city=%E6%B7%B1%E5%9C%B3#order"});
+        crawler.crawling(new String[]{"https://search.51job.com/list/040000,000000,0000,00,0,09,Java%25E9%25AB%2598%25E7%25BA%25A7%25E5%25BC%2580%25E5%258F%2591%25E5%25B7%25A5%25E7%25A8%258B%25E5%25B8%2588,2,1.html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&confirmdate=9&fromType=5&dibiaoid=0&address=&line=&specialarea=00&from=&welfare="});
     }
 }
